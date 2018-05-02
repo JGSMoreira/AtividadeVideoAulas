@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="231.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuController">
+<AnchorPane id="AnchorPane" prefHeight="303.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuController">
    <children>
-      <TextField fx:id="txtX" layoutX="24.0" layoutY="25.0" prefHeight="25.0" prefWidth="272.0" promptText="X" />
-      <TextField fx:id="txtY" layoutX="24.0" layoutY="58.0" prefHeight="25.0" prefWidth="272.0" promptText="Y" />
-      <TextField fx:id="txtResultado" editable="false" layoutX="24.0" layoutY="94.0" prefHeight="25.0" prefWidth="272.0" promptText="Resultado" />
-      <Button fx:id="btnSomar" layoutX="24.0" layoutY="126.0" mnemonicParsing="false" onAction="#somar" prefHeight="25.0" prefWidth="73.0" text="Somar" />
-      <Button fx:id="btnSubtrair" layoutX="24.0" layoutY="151.0" mnemonicParsing="false" onAction="#subtrair" prefHeight="25.0" prefWidth="73.0" text="Subtrair" />
-      <Button fx:id="btnMultiplicar" layoutX="223.0" layoutY="126.0" mnemonicParsing="false" onAction="#multiplicar" text="Multiplicar" />
-      <Button fx:id="btnDividir" layoutX="223.0" layoutY="151.0" mnemonicParsing="false" onAction="#dividir" prefHeight="25.0" prefWidth="73.0" text="Dividir" />
-      <Label layoutX="129.0" layoutY="6.0" text="Calculadora" textAlignment="CENTER" />
-      <Button fx:id="btnCadastrarAluno" layoutX="24.0" layoutY="192.0" mnemonicParsing="false" onAction="#cadastrar" prefHeight="25.0" prefWidth="272.0" text="Cadastrar Aluno" />
+      <TextField fx:id="txtX" layoutX="24.0" layoutY="55.0" prefHeight="25.0" prefWidth="272.0" promptText="X" />
+      <TextField fx:id="txtY" layoutX="24.0" layoutY="88.0" prefHeight="25.0" prefWidth="272.0" promptText="Y" />
+      <TextField fx:id="txtResultado" editable="false" layoutX="24.0" layoutY="124.0" prefHeight="25.0" prefWidth="272.0" promptText="Resultado" />
+      <Button fx:id="btnSomar" layoutX="24.0" layoutY="156.0" mnemonicParsing="false" onAction="#somar" prefHeight="25.0" prefWidth="73.0" text="Somar" />
+      <Button fx:id="btnSubtrair" layoutX="24.0" layoutY="181.0" mnemonicParsing="false" onAction="#subtrair" prefHeight="25.0" prefWidth="73.0" text="Subtrair" />
+      <Button fx:id="btnMultiplicar" layoutX="223.0" layoutY="156.0" mnemonicParsing="false" onAction="#multiplicar" text="Multiplicar" />
+      <Button fx:id="btnDividir" layoutX="223.0" layoutY="181.0" mnemonicParsing="false" onAction="#dividir" prefHeight="25.0" prefWidth="73.0" text="Dividir" />
+      <Label layoutX="24.0" layoutY="27.0" text="CALCULADORA" textAlignment="CENTER" textFill="#434343">
+         <font>
+            <Font name="Segoe UI Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="btnCadastrarAluno" layoutX="24.0" layoutY="253.0" mnemonicParsing="false" onAction="#cadastrar" prefHeight="25.0" prefWidth="272.0" text="Cadastrar Aluno" />
+      <Separator layoutX="24.0" layoutY="44.0" prefHeight="3.0" prefWidth="255.0" />
+      <Separator layoutX="24.0" layoutY="241.0" prefHeight="3.0" prefWidth="255.0" />
+      <Label layoutX="24.0" layoutY="224.0" text="OUTROS" textAlignment="CENTER" textFill="#434343">
+         <font>
+            <Font name="Segoe UI Bold" size="12.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
