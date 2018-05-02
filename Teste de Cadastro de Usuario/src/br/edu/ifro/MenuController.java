@@ -8,6 +8,7 @@ package br.edu.ifro;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -39,6 +40,8 @@ public class MenuController implements Initializable {
     private Button btnDividir;
     @FXML
     private Button btnCadastrarAluno;
+    @FXML
+    private Button btnFechar;
     
     @FXML
     private void somar(){
@@ -88,9 +91,17 @@ public class MenuController implements Initializable {
         }
     }
     
+    @FXML
+    private void fechar() {
+        Stage stage = (Stage) btnFechar.getScene().getWindow();
+        stage.close();
+    }
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    
     
 }

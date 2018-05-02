@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -7,10 +8,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="303.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuController">
+<AnchorPane id="AnchorPane" prefHeight="334.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuController">
    <children>
-      <TextField fx:id="txtX" layoutX="24.0" layoutY="55.0" prefHeight="25.0" prefWidth="272.0" promptText="X" />
-      <TextField fx:id="txtY" layoutX="24.0" layoutY="88.0" prefHeight="25.0" prefWidth="272.0" promptText="Y" />
+      <TextField fx:id="txtX" layoutX="24.0" layoutY="55.0" prefHeight="25.0" prefWidth="272.0" promptText="Valor X" />
+      <TextField fx:id="txtY" layoutX="24.0" layoutY="88.0" prefHeight="25.0" prefWidth="272.0" promptText="Valor Y" />
       <TextField fx:id="txtResultado" editable="false" layoutX="24.0" layoutY="124.0" prefHeight="25.0" prefWidth="272.0" promptText="Resultado" />
       <Button fx:id="btnSomar" layoutX="24.0" layoutY="156.0" mnemonicParsing="false" onAction="#somar" prefHeight="25.0" prefWidth="73.0" text="Somar" />
       <Button fx:id="btnSubtrair" layoutX="24.0" layoutY="181.0" mnemonicParsing="false" onAction="#subtrair" prefHeight="25.0" prefWidth="73.0" text="Subtrair" />
@@ -28,5 +29,6 @@
             <Font name="Segoe UI Bold" size="12.0" />
          </font>
       </Label>
+      <Button fx:id="btnFechar" layoutX="24.0" layoutY="281.0" mnemonicParsing="false" onAction="#fechar" prefHeight="25.0" prefWidth="272.0" text="Fechar" />
    </children>
 </AnchorPane>
