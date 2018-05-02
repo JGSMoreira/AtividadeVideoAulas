@@ -13,6 +13,5 @@
       <Button fx:id="btnSalvar" layoutX="246.0" layoutY="131.0" mnemonicParsing="false" onAction="#salvar" text="Salvar" />
       <Button fx:id="btnCancelar" layoutX="181.0" layoutY="131.0" mnemonicParsing="false" onAction="#fechar" text="Cancelar" />
       <Label layoutX="106.0" layoutY="9.0" text="Cadastro de Usuário" textAlignment="CENTER" />
-      <BorderPane prefHeight="200.0" prefWidth="200.0" />
    </children>
 </AnchorPane>
